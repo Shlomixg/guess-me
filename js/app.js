@@ -1,11 +1,15 @@
 'use strict';
 
+/* Global Variables */
+
 var gQuestsTree;
 var gCurrQuest;
 var gPrevQuest = null;
 var gLastRes = null;
 
 var QUESTS_TREE_KEY = 'questsTree';
+
+/* Functions */
 
 $(document).ready(init);
 
